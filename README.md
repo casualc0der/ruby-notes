@@ -37,4 +37,8 @@ Method calls (messages) are invoked on an object by using the dot . notation. In
 "100".to_i
 ```
 
-To get a list of available messages that you can send to an Object, you can type `Object.methods` in the irb
+To get a list of available messages that you can send to an object, you can type `Object.methods` in the irb
+
+Classes are used as a template for bbjects. They instantiate (create) an object with a set of pre-defined attributes and methods.
+
+**Methods can be added later!** Just think of classes as the DNA of objects, but we can teach the newly born object to speak with methods :baby_chick:
