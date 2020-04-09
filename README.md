@@ -70,11 +70,11 @@ HASHKEYS to check the file paths of Ruby source files
 
 
 HASHKEY | Contents |
+--------|----------|
  rubylibdir | Ruby standard library|
  bindir | Ruby command-line tools| 
- archdir |   Architecture-specific extensions and libraries (compiled, binary files)| 
-sitedir |Your own or third-party extensions and  (written in Ruby)
- libraries | 
+ archdir | | Architecture-specific extensions and libraries (compiled, binary files)| 
+sitedir |Your own or third-party extensions and libraries (written in Ruby)| 
  vendordir |Third-party extensions and libraries (written in Ruby)|
  sitelibdir |Your own Ruby language extensions (written in Ruby)|
  sitearchdir | Your own Ruby language extensions (written in C)|
