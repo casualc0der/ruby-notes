@@ -73,7 +73,7 @@ HASHKEY | Contents |
 --------|----------|
  rubylibdir | Ruby standard library|
  bindir | Ruby command-line tools| 
- archdir | | Architecture-specific extensions and libraries (compiled, binary files)| 
+ archdir | Architecture-specific extensions and libraries (compiled, binary files)| 
 sitedir |Your own or third-party extensions and libraries (written in Ruby)| 
  vendordir |Third-party extensions and libraries (written in Ruby)|
  sitelibdir |Your own Ruby language extensions (written in Ruby)|
