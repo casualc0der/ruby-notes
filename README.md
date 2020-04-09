@@ -26,3 +26,15 @@ And the REPL will open ready for commands
 ```
 
 Type 'exit' or Ctrl-D to go back to the command line.
+
+Ruby uses standard operators + - / * etc
+
+Everthing is an object (mostly). Ruby passes messages around the program using method calls. 
+
+Method calls (messages) are invoked on an object by using the dot . notation. In the example below, we send the message to the String object that we would like Ruby to convert it into an Integer. 
+
+```
+"100".to_i
+```
+
+To get a list of available messages that you can send to an Object, you can type `Object.methods` in the irb
