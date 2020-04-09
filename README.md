@@ -41,4 +41,45 @@ To get a list of available messages that you can send to an object, you can type
 
 Classes are used as a template for bbjects. They instantiate (create) an object with a set of pre-defined attributes and methods.
 
-**Methods can be added later!** Just think of classes as the DNA of objects, but we can teach the newly born object to speak with methods :baby_chick:
+**Methods can be added to objects after they are instantiated!** Just think of classes as the DNA of objects, but we can teach the newly born object to speak with methods :baby_chick:
+
+Before running a Ruby program you can check the syntax by running the below command
+
+```
+$ ruby -cw testfile.rb
+```
+* -c checks for syntax errors
+* -w checks for formatting issues
+
+### **Simple** File I/O
+
+Read from a file: `x = File.read("test.dat")`
+
+Write to a file `file = File.new("test.out", "w")`
+
+Ruby config can be used to scout through the Ruby source code. 
+
+```
+$ irb --simple-prompt -r rbconfig
+```
+```
+>> RbConfig::CONFIG["_HASHKEY_"]
+```
+
+HASHKEYS to check the file paths of Ruby source files 
+
+
+HASHKEY | Contents |
+ rubylibdir | Ruby standard library 
+ bindir | Ruby command-line tools| 
+ archdir |   Architecture-specific extensions and libraries (compiled, binary files)| 
+sitedir |Your own or third-party extensions and  (written in Ruby)
+ libraries | 
+ vendordir |Third-party extensions and libraries (written in Ruby)
+ sitelibdir |Your own Ruby language extensions (written in Ruby)
+ sitearchdir | Your own Ruby language extensions (written in C)
+ 
+
+
+
+ 
