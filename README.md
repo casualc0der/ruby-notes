@@ -1,7 +1,7 @@
-# The Well Grounded Rubyist
+# Ruby Notes
 
 
-## Chapter 1 - Bootstrapping your Ruby literacy
+## Chapter 1 
 
 * Ruby or ruby, never RUBY
 * Use RVM, rbenv or chruby to install Ruby
@@ -18,3 +18,11 @@ irb is Rubys REPL, great for trying out code snippets and prototyping quickly. S
 ```
 $ irb
 ```
+And the REPL will open ready for commands 
+
+```
+2.7.0 :001 >
+
+```
+
+Type 'exit' or Ctrl-D to go back to the command line.
